@@ -1,8 +1,8 @@
 # contact-app
 
-at root folder > npm install 
-at conatct folder > npm install 
-at my-contact-app folder > npm install 
+at root folder  install  > npm install ;
+at conatct folder install (cd contact ) > npm install ; 
+at my-contact-app folder install (cd my-contact-app) > npm install ;
 
-at root folder > npm start 
+at root folder to start the program > npm start 
 (or) node start.js 

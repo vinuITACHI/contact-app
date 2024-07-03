@@ -1,0 +1,89 @@
+.outlook-container {
+  display: flex;
+  height: 100vh;
+}
+
+.sidebar {
+  width: 20%;
+  background: #f3f3f3;
+  padding: 10px;
+}
+
+.main-content {
+  width: 50%;
+  padding: 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contacts-list {
+  margin-top: 20px;
+}
+
+.popup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.popup {
+  background: #1e1e1e;
+  color: white;
+  padding: 40px;
+  border-radius: 10px;
+  width: 500px; /* Increased width for a more rectangular shape */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  margin-bottom: 15px; /* Increased space between inputs */
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px; /* Larger font for better readability */
+}
+
+button {
+  margin-top: 10px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background: #0078d4;
+  color: white;
+  cursor: pointer;
+  font-size: 16px; /* Larger font for better readability */
+}
+
+button[type="button"] {
+  background: #f3f3f3;
+  color: black;
+  margin-left: 10px; /* Space between buttons */
+}
+
+button[type="submit"] {
+  background: #0078d4;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+form > div {
+  display: flex;
+  flex-direction: column;
+}
